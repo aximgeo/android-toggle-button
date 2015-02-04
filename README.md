@@ -5,6 +5,8 @@ Often during the creation of an Android application, a developer will need to cr
 
 The toggle button will consist of a black oval containing a circle. The circle's position represents the current setting: left for "off", right for "on". When the toggle button is pressed, the circle will move to the right and the containing oval will animate to green.
 
+BONUS: this control is directly tied to Android's SharedPreferences, so your setting will persist to the device
+
 !["Custom Toggle Button"](https://raw.githubusercontent.com/gisinc/android-toggle-button/master/togglebutton.gif)
 
 ### Requirements
