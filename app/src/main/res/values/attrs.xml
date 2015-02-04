@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingsToggle">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="string" />
+        <attr name="prefName" format="string" />
+        <attr name="oval_background_off" format="string" />
+        <attr name="oval_background_on" format="string" />
+    </declare-styleable>
+</resources>

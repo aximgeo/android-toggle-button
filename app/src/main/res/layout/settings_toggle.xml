@@ -1,0 +1,40 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="@dimen/settings_toggle_width"
+            android:layout_height="@dimen/settings_toggle_height"
+            android:id="@+id/background_oval_off"
+            android:background="@drawable/settings_black_oval" />
+
+        <View
+            android:layout_width="@dimen/settings_toggle_width"
+            android:layout_height="@dimen/settings_toggle_height"
+            android:id="@+id/background_oval_on"
+            android:background="@drawable/settings_green_oval"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="@dimen/settings_toggle_circle_diameter"
+            android:layout_height="@dimen/settings_toggle_circle_diameter"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/toggleCircle"
+            android:background="@drawable/settings_circle" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/layout"
+        android:layout_toEndOf="@id/layout"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dip"
+        android:layout_marginLeft="10dip"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+</merge>

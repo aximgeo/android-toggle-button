@@ -1,0 +1,26 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="@dimen/settings_toggle_circle_diameter">
+        <shape android:shape="oval">
+            <solid android:color="@color/black"/>
+            <size
+                android:height="@dimen/settings_toggle_circle_diameter"
+                android:width="@dimen/settings_toggle_circle_diameter" />
+        </shape>
+    </item>
+    <item android:left="@dimen/settings_toggle_circle_radius" android:right="@dimen/settings_toggle_circle_radius">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/black"/>
+            <size
+                android:height="@dimen/settings_toggle_circle_diameter"
+                android:width="@dimen/settings_toggle_circle_diameter" />
+        </shape>
+    </item>
+    <item android:left="@dimen/settings_toggle_circle_diameter">
+        <shape android:shape="oval">
+            <solid android:color="@color/black"/>
+            <size
+                android:height="@dimen/settings_toggle_circle_diameter"
+                android:width="@dimen/settings_toggle_circle_diameter" />
+        </shape>
+    </item>
+</layer-list>
